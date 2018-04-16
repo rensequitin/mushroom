@@ -1,0 +1,352 @@
+body{
+	background-image: url('images/background.png');
+}
+
+.header{
+  background-image: url('images/header_nav.png');
+  height: 14px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer1{
+  position:relative;
+  top:-239px;
+  background-image: url('images/footer_main.png');
+  height: 505px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index:2;
+}
+  
+.footer2{
+  position:relative;
+  top:-239px;
+  background-image: url('images/footer_main2.png');
+  height: 505px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index:2;
+}
+.footer3{
+  position:relative;
+  top:-239px;
+  background-image: url('images/footer_main3.png');
+  height: 505px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index:2;
+}
+
+#food-container{
+	position:relative;
+}
+
+#food-container div{
+	display:none;
+}
+
+#food-container div.active{
+	display:block;
+	height: 984px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#food{
+	background-image: url('images/food.png');
+}
+
+#food2{
+	background-image: url('images/food2.png');
+}
+
+#food3{
+	background-image: url('images/food3.png');
+}
+
+.home{
+  position:relative;
+  top:-45px;
+  background-image: url('images/home.png');
+  height: 162px;
+  width: 373px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index:5;
+}
+
+
+.home2{
+  position:relative;
+  top:0px;
+  background-image: url('images/home.png');
+  height: 162px;
+  width: 373px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.on{
+  position:relative;
+  top:-49px;
+  background-image: url('images/footer_on.png');
+  height: 39px;
+  width: 66px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index:5;
+}
+
+.off{
+  position:relative;
+  top:-49px;
+  background-image: url('images/footer_off.png');
+  height: 39px;
+  width: 66px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index:5;
+}
+
+.price{
+position: absolute;
+left: 190px;
+text-align: center;
+width: 60px;
+color: white;
+top: -5px;
+border-radius:5px;
+background-color: #53af32;
+}
+
+.dots div{
+	position:relative;	
+	top:125px;
+	left:87.6%;
+	cursor:pointer;
+	float:left;
+	height:9px;
+	width:8.5px;
+	background-color:#bdbdbd;
+	border-radius:50pt;
+	border:solid 1.3px white;
+	margin-left:5px;
+}
+
+.carousel-caption h1{
+  font-size: 5.4em;
+  font-family: 'Pacifico', cursive;
+  padding-bottom: .4em;
+}
+.carousel-caption p{
+  font-size: 2em;
+}
+
+#carousel-id {
+  font-size: 62.5%;
+  font-family: arial, sans-serif;
+}
+
+#group .items {
+    width:85%;
+    margin: 0 auto;
+    padding: 0; 
+    list-style: none;
+    position: absolute;
+    text-align: center;	
+}
+
+#group #ft_nav_food {
+    width: 105px;
+}
+
+#group #ft_nav_locations {
+    width: 95px;
+}
+#group #ft_nav_mushroom {
+    width: 35px;
+}
+
+#group #ft_nav_order {
+    width: 135px;
+}
+
+#group #ft_nav_about {
+    width: 135px;
+}
+
+#group .items .left {
+    float: left;
+	padding:0px 0px;
+	position:relative;
+	top:25px;
+	left:0px;
+	z-index:6;
+}
+
+#group .items .right {
+    float: right;
+	padding:0px 0px;
+	position:relative;
+	top:25px;
+	left:185px;
+	z-index:6;
+}
+
+#group .items li {
+    list-style: none;
+    height: 35px;
+    display: block;
+    margin: 0 33px;
+    position: relative;
+}
+
+#footer .items a {
+	color:#FAFAFA;
+	font-family:"Avenir";
+	text-decoration:none;
+	font-size:1.7em;
+}
+
+#group .items a:hover{
+	color:#e65900;
+}
+
+#banner { 
+	position:relative;
+	top:-140px;
+	height:210px;
+	width:20%;
+	z-index:2;
+}
+
+#banner-click, #banner-click2{ 
+	position:relative;
+	top:15px;
+	left:-198px;
+	z-index:3;
+	cursor:pointer;
+}
+
+#account p {
+	font-size:1.4em;
+	color:#FAFAFA;
+	position:relative;
+	top:70px;
+	left:25px;
+	display:none;
+}
+
+#account a{
+	font-size:1.4em;
+	color:#FAFAFA;
+	position:relative;
+	top:20px;
+	left:25px;
+	display:none;
+}
+
+#user_photo{
+	position:relative;
+	top:25px;
+	left:25px;
+	font-size:2em;
+	border-radius:3px;
+	border:none;
+	width:180px;
+	padding:2px 0px 2px 0px;
+	margin-top:5px;
+	display:none;
+	font-variant:small-caps;
+	letter-spacing:3px;
+	text-align:center;
+}
+
+#btn_login {
+	position:relative;
+	top:85px;
+	left:-244px;
+	font-size:2em;
+	background:#E65900;
+	border:none;
+	border-radius:5px;
+	color:#FAFAFA;
+	display:none;
+	padding:1px 30px 1px 30px;
+}
+ 
+#username, #password {
+	font-size:1.4em;
+	text-indent:25px;
+	color:black;
+	position:relative;
+	top:-5px;
+	left:20px;
+}
+
+input::placeholder {
+	font-variant:small-caps;
+	color:#FAFAFA;
+	font-size:1.3em;
+	letter-spacing:3px;
+}
+
+.list-group-item {
+  background-color:rgba(0, 0, 0, 0.0);
+  border: none;
+}
+
+.carousel-inner{
+	position: relative;
+	z-index:3;	
+}
+
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus{
+  background-image: url('images/food-selected.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color:rgba(0, 0, 0, 0.0);
+  text-decoration:none;
+  color:white; 
+}
+
+h3{ border-bottom: 4px solid #c9c9c9; }
+a{ font-weight: bold; }
+a:focus, a:active { color: white; }
+list-group-item,a { color: black; }
+a:hover { color: black; text-decoration: none; }
+ 
+.other input::placeholder {
+	color:gray;
+	font-variant:none;
+	font-size:1.3em;
+	letter-spacing:2px;
+}
+
+.centered-form{	position:relative; top:140px; left:-25px; }
+.centered-form .panel{ padding:10px 30px 10px 30px; }
+.profile { position: relative;	left: -20px; margin: 30px 0; }
+.profile a { margin: 30px 0; color: #6F6F6F; }
+.profile li { list-style-type: none; padding: 10px 15px; }
+.profile #personaldetails { border-bottom: 2px #E3E3E3 solid; border-top: 2px #E3E3E3 solid; }
+.profile #receipt { border-bottom: 2px #E3E3E3 solid; }
+.profile li img { padding: 5px 15px; }
+.profile li:hover { background-color: white; } 
+#signout { position: relative; top: 230px; margin: 233px 0; text-align: center; color: #6F6F6F; cursor: pointer; }
+#signout:hover { color: black; }
+#show2 { position: relative; top: 0; left: 0; }
+.panel h4 {	color: #6F6F6F;	}
+.panel h2 {	color: #6F6F6F;	}

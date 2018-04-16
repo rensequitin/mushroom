@@ -1,0 +1,56 @@
+#addproduct > div > div > div > div{ position: relative; top: 20px;}
+#addproduct > div > div > button{ position: relative; top: 10px;} 
+#addproduct > div { height: 50%;} 
+#addproduct h4  { position: relative; top: 10px;} 
+#addproduct hr { position: relative; top: 5px;} 
+#editphoto{display:block};
+.modal-content #foodcategory { width: 377px; margin-top: 20px; }
+
+#modal-photo{}
+.modal {display: none; position: fixed; z-index: 5; padding-top: 100px; left: 0; top: 0; width: 100%;  height: 100%;  overflow: auto;   background-color: rgba(0,0,0,0.72);   }
+.modal-content { background-color: #fefefe; margin: auto; width: 410px; height: 320px; }
+.close { position:absolute; top: 120px; right: 500px; color: white; opacity: 1; z-index: 5;}
+.close:hover, .close:focus { opacity: 1; color: #fff; transform: rotate(0) scale(1.2);}
+.modal > button { font-size: 2em; font-weight: lighter; background-color: black; border-radius: 100px; width: 30px; text-align: center; background-color: #042E1E;} 
+.modal-content > .btn { position: relative; top: 80px; left: 48px; margin-left: 20px; border-radius: 50px; padding: 10px; width: 30%;} 
+.modal-content p { position: relative; top: 40px; font-weight: bold; font-size: 1.5em;} 
+.modal-content h4{ position: relative; top: 40px; }
+
+#file-label::placeholder {
+	font-variant:small-caps;
+	color:#FAFAFA;
+	font-size:1.3em;
+	letter-spacing:3px;
+}
+#file-label{
+	height:40px;
+	padding-top:7.7px;
+	padding-left:22.8px;
+}
+#file-label::placeholder{
+	font-weight:normal;
+	font-variant:small-caps;
+	color:#ccc;
+	font-size:0.6em;
+}
+#file-attach{
+	cursor:pointer;
+	position:relative;
+	top:32px;
+	left:278px;
+}
+#file-delete{
+	cursor:pointer;
+	position:relative;
+	top:32px;
+	left:280px;
+}
+#upload-file{
+	display:none;
+}
+.image-container span { cursor: pointer; } 
+.imageInput { position: relative; width:240px; }
+.imageInput input[type=text]{ position: relative; top: 70px; left: 56px; height: 35px; padding: 15px 65px 10px 5px; border:1px #BBB solid; border-radius: 5px; background: #F6F6FA; display:block; width: 120%; box-sizing: border-box; font-size: 1.5em; font-weight: bold; color: #bbb; } 
+.imageInput input[type=text]::placeholder {color: #BBB;} 
+.imageInput label img{ position: relative; top: 40px; right: -280px; width: 25px; cursor: pointer; }  
+.imageInput p{ position: relative; top: 45px; left: 58px; font-size: .9em;}

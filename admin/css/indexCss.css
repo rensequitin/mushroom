@@ -1,0 +1,142 @@
+#carousel-id {
+  font-size: 62.5%;
+  font-family: arial, sans-serif;
+}
+
+
+body{
+	background-image: url('images/background.png');
+}
+
+.header{
+  background-image: url('images/header_nav.png');
+  height: 14px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer{
+  background-image: url('images/footer_main.png');
+  height: 505px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index:2;
+}
+.footer2{
+  background-image: url('images/footer_main2.png');
+  height: 505px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index:2;
+}
+.footer3{
+  background-image: url('images/footer_main3.png');
+  height: 505px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index:2;
+}
+
+#food-container div{
+	display:none;
+}
+
+#food-container div.active{
+	display:block;
+	height: 884px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 884px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#food{
+	background-image: url('images/food.png');
+}
+
+#food2{
+	background-image: url('images/food2.png');
+}
+
+#food3{
+	background-image: url('images/food3.png');
+}
+
+.home{
+  position:relative;
+  top:195px;
+  background-image: url('images/home.png');
+  height: 162px;
+  width: 373px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.home2{
+  position:relative;
+  top:0px;
+  background-image: url('images/home.png');
+  height: 162px;
+  width: 373px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.on{
+  position:relative;
+  top:190px;
+  background-image: url('images/footer_on.png');
+  height: 39px;
+  width: 66px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.off{
+  position:relative;
+  top:190px;
+  background-image: url('images/footer_off.png');
+  height: 39px;
+  width: 66px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dots div{
+	position:relative;	
+	top:125px;
+	left:87.6%;
+	cursor:pointer;
+	float:left;
+	height:9px;
+	width:8.5px;
+	background-color:#bdbdbd;
+	border-radius:50pt;
+	border:solid 1.3px white;
+	margin-left:5px;
+}
+
+.dots div.activeDot{
+	background-color:yellow;
+}
+
+
+.carousel-caption h1{
+  font-size: 5.4em;
+  font-family: 'Pacifico', cursive;
+  padding-bottom: .4em;
+}
+.carousel-caption p{
+  font-size: 2em;
+}
